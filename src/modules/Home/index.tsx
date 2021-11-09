@@ -1,5 +1,6 @@
 import React from 'react';
-import { TouchableOpacity } from 'react-native';
+
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 // import {  } from '~/components';
 // import {  } from '~/assets';
@@ -8,13 +9,10 @@ import { TouchableOpacity } from 'react-native';
 import * as S from './styles';
 
 const Home = () => {
-  const handleFuction = () => {
-    console.log('handleFuction');
-  };
   return (
     <S.Container>
       <S.Title>Hello Motherfuckers</S.Title>
-      <TouchableOpacity onPress={handleFuction} />
+      <Icon name="home" size={24} color="#FFF" />
       <S.Description>Wagnifico na parada</S.Description>
     </S.Container>
   );
