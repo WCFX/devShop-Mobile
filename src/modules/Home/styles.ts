@@ -12,9 +12,10 @@ export const Container = styled.SafeAreaView`
 export const Title = styled.Text`
   font-size: 20px;
   color: ${({ theme }) => theme.colors.white};
-  font-family: 'Roboto-Medium';
+  font-family: 'Poppins-Bold';
 `;
 export const Description = styled.Text`
   font-size: 16px;
   color: ${({ theme }) => theme.colors.white};
+  font-family: 'Roboto-Regular';
 `;
